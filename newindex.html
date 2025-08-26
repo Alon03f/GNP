@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GNP — Game Night Picker</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <meta name="description"
+        content="Find the perfect game for tonight. Advanced game picker with AI-powered recommendations." />
+</head>
+
+<body>
+    <div id="site-header"></div>
+
+    <main class="container">
+        <!-- Enhanced Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-sparkles"></i>
+                    <span>Powered by RAWG & AI</span>
+                </div>
+                <h1 class="gradient-title">Game Night Picker</h1>
+                <p class="lead">Discover your next gaming obsession with our intelligent recommendation system. Search
+                    through thousands of games, get personalized picks, and jump straight into action.</p>
+
+                <!-- Stats Section -->
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="500000">0</div>
+                        <div class="stat-label">Games Database</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="1000">0</div>
+                        <div class="stat-label">Happy Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label">Platforms</div>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a class="btn btn-primary btn-large pulse" href="./picker.html">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        Start Picking
+                    </a>
+                    <a class="btn btn-ghost btn-large" href="./explore.html">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Explore Games
+                    </a>
+                </div>
+            </div>
+
+            <!-- Floating Elements -->
+            <div class="floating-elements">
+                <div class="float-element" style="--delay: 0s; --duration: 6s;">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="float-element" style="--delay: 2s; --duration: 8s;">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="float-element" style="--delay: 4s; --duration: 7s;">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="float-element" style="--delay: 1s; --duration: 9s;">
+                    <i class="fa-solid fa-crown"></i>
+                </div>
+                <div class="float-element" style="--delay: 3s; --duration: 5s;">
+                    <i class="fa-solid fa-gem"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Feature Cards -->
+        <section class="grid-cards">
+            <article class="card tilt premium-card">
+                <div class="card-media shimmer">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=225&fit=crop&q=80"
+                        alt="Save Favorites" class="feature-image" />
+                    <div class="card-overlay">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="feature-header">
+                        <h3><i class="fa-solid fa-heart text-gradient"></i> Save Favorites</h3>
+                        <span class="feature-badge">Essential</span>
+                    </div>
+                    <p>Build your personal game collection with one-click saves. Your curated list syncs across sessions
+                        and helps refine future recommendations.</p>
+                    <div class="feature-stats">
+                        <span class="stat"><i class="fa-solid fa-clock"></i> Instant sync</span>
+                        <span class="stat"><i class="fa-solid fa-shield"></i> Secure storage</span>
+                    </div>
+                    <a class="chip premium-chip" href="./favorites.html">
+                        Open Favorites
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="card tilt premium-card">
+                <div class="card-media shimmer">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=225&fit=crop&q=80"
+                        alt="Buy or Watch" class="feature-image" />
+                    <div class="card-overlay">
+                        <div class="card-icon">
+                            <i class="fa-brands fa-steam-symbol"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="feature-header">
+                        <h3><i class="fa-brands fa-steam-symbol text-gradient"></i> Buy or Watch</h3>
+                        <span class="feature-badge">Popular</span>
+                    </div>
+                    <p>Seamlessly transition from discovery to action. Direct links to Steam, PlayStation, Xbox stores,
+                        or instant trailer viewing on YouTube.</p>
+                    <div class="feature-stats">
+                        <span class="stat"><i class="fa-solid fa-store"></i> 10+ Stores</span>
+                        <span class="stat"><i class="fa-solid fa-play"></i> Instant trailers</span>
+                    </div>
+                    <a class="chip premium-chip" href="./explore.html">
+                        Browse Catalog
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="card tilt premium-card">
+                <div class="card-media shimmer">
+                    <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400&h=225&fit=crop&q=80"
+                        alt="Your Account" class="feature-image" />
+                    <div class="card-overlay">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="feature-header">
+                        <h3><i class="fa-solid fa-user-gear text-gradient"></i> Your Account</h3>
+                        <span class="feature-badge">Secure</span>
+                    </div>
+                    <p>Create your gaming profile in seconds. Advanced privacy controls, personalized recommendations,
+                        and secure data management.</p>
+                    <div class="feature-stats">
+                        <span class="stat"><i class="fa-solid fa-user-shield"></i> Privacy first</span>
+                        <span class="stat"><i class="fa-solid fa-brain"></i> Smart AI</span>
+                    </div>
+                    <a class="chip premium-chip" href="./profile.html">
+                        View Profile
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <!-- New: Popular Games Section -->
+        <section class="popular-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fa-solid fa-fire"></i>
+                    Trending Now
+                </h2>
+                <p class="section-subtitle">Most popular games this week</p>
+            </div>
+            <div id="popularGames" class="grid-cards trending-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div class="section-cta">
+                <a href="./explore.html" class="btn btn-ghost">
+                    View All Games
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- New: How It Works Section -->
+        <section class="how-it-works">
+            <div class="section-header centered">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Get your perfect game recommendation in 3 simple steps</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Tell Us Your Mood</h3>
+                        <p>Select your preferences: players, mood, playtime, platform, and genre</p>
+                        <div class="step-icon">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Get Smart Picks</h3>
+                        <p>Our AI analyzes thousands of games to find your perfect matches</p>
+                        <div class="step-icon">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Playing</h3>
+                        <p>Buy instantly or watch trailers - we'll connect you to the right place</p>
+                        <div class="step-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script type="module" src="./js/partials.js"></script>
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
