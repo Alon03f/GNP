@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign in / Sign up — GNP</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="site-header" data-active="auth"></div>
+
+    <main class="container auth-split">
+        <section class="card form-card">
+            <h2><i class="fa-solid fa-user-plus"></i> Create account</h2>
+            <form id="signupForm" class="stack">
+                <input required type="text" name="name" placeholder="Your name" />
+                <input required type="email" name="email" placeholder="Email address" />
+                <div class="password-field">
+                    <input required type="password" name="password" placeholder="Password (min 6 chars)"
+                        minlength="6" />
+                    <button type="button" class="icon-btn toggle-pass" title="Show password"><i
+                            class="fa-solid fa-eye"></i></button>
+                </div>
+                <button class="btn btn-primary" type="submit">Sign up</button>
+            </form>
+            <p class="muted tiny">By signing up you agree to the Terms. An optional email will be sent via EmailJS if
+                configured.</p>
+        </section>
+
+        <section class="card form-card">
+            <h2><i class="fa-solid fa-right-to-bracket"></i> Sign in</h2>
+            <form id="loginForm" class="stack">
+                <input required type="email" name="email" placeholder="Email address" />
+                <div class="password-field">
+                    <input required type="password" name="password" placeholder="Password" minlength="6" />
+                    <button type="button" class="icon-btn toggle-pass" title="Show password"><i
+                            class="fa-solid fa-eye"></i></button>
+                </div>
+                <button class="btn btn-primary" type="submit">Sign in</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script type="module" src="./js/partials.js"></script>
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>

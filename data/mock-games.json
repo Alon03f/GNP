@@ -1,0 +1,48 @@
+[
+    {
+        "id": 3498,
+        "name": "Grand Theft Auto V",
+        "background_image": "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scus.jpg",
+        "genres": [
+            {
+                "name": "Action"
+            }
+        ],
+        "parent_platforms": [
+            {
+                "platform": {
+                    "name": "PC"
+                }
+            },
+            {
+                "platform": {
+                    "name": "PlayStation"
+                }
+            }
+        ],
+        "metacritic": 96
+    },
+    {
+        "id": 3328,
+        "name": "The Witcher 3: Wild Hunt",
+        "background_image": "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sclg.jpg",
+        "genres": [
+            {
+                "name": "RPG"
+            }
+        ],
+        "parent_platforms": [
+            {
+                "platform": {
+                    "name": "PC"
+                }
+            },
+            {
+                "platform": {
+                    "name": "Xbox"
+                }
+            }
+        ],
+        "metacritic": 93
+    }
+]
